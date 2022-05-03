@@ -112,8 +112,12 @@ function clickHandler(e) {
     behavior: "smooth"
   });
 
-  navElements.style.height = "0px"
-  navElements.querySelector("ul").style.display = "none"
-  navBtn.classList.remove('fa-xmark');
-  navBtn.classList.add('fa-bars');
+
+  if ( navBtn.classList.contains("fa-xmark")) { 
+    navElements.style.height = "0px"
+    navElements.querySelector("ul").style.display = "none"
+    navBtn.classList.remove('fa-xmark');
+    navBtn.classList.add('fa-bars');
+  }
+
 }

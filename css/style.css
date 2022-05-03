@@ -376,6 +376,7 @@ body .gape .features__container {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
 }
 
 body .gape .features__container .features__container__left {

@@ -364,6 +364,7 @@ body {
             padding: 20px 10px;
             display: grid;
             grid-template-columns: repeat(2 , 1fr);
+            overflow: hidden;
 
             .features__container__left {
                 padding: 40px;

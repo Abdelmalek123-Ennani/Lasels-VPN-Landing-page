@@ -122,9 +122,12 @@ body .gape header .navbar nav ul a {
     text-align: center;
     padding: 5px 30px;
     display: none;
+    padding: 17px 0px 39px 0px;
+    text-align: left;
   }
   body .gape header .navbar nav ul li {
     padding: 10px;
+    border-bottom: solid .5px #d9d9d980;
   }
   body .gape header .navbar .open-close {
     display: block;
@@ -135,6 +138,10 @@ body .gape header .navbar nav ul a {
   }
   body .gape header .navbar .open-close i {
     cursor: pointer;
+  }
+  body .gape header .navbar .logo img {
+    width: 65%;
+    padding-top: 8px;
   }
 }
 
@@ -366,6 +373,23 @@ body .gape .get__started__container .get__started__right img {
 }
 
 @media (max-width: 915px) {
+  body .gape .get__started__container .get__started__left {
+    min-height: auto;
+    margin-bottom: 10px;
+  }
+  body .gape .get__started__container .get__started__left h1 {
+    line-height: 40px;
+    font-size: 20px;
+  }
+  body .gape .get__started__container .get__started__left p {
+    line-height: 20px;
+  }
+  body .gape .get__started__container .get__started__right {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
   body .gape .get__started__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -375,15 +399,14 @@ body .gape .get__started__container .get__started__right img {
   body .gape .get__started__container .get__started__left {
     min-height: auto;
     margin-bottom: 10px;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
   }
   body .gape .get__started__container .get__started__left h1 {
     line-height: 50px;
+    font-size: 35px;
   }
   body .gape .get__started__container .get__started__left p {
     line-height: 30px;
+    font-size: 14px;
   }
   body .gape .get__started__container .get__started__right {
     display: none;

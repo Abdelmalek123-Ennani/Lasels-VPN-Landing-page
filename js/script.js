@@ -77,16 +77,22 @@ points.forEach((btn , idx) => {
 
 navBtn.addEventListener('click' , (e) => {
 
-      if ( navElements.style.height == "0px" ) {
-          console.log(navElements.style.height)
-            navElements.style.height = "auto"
-            navElements.style.border = "solid 1px #333"
-            navElements.querySelector("ul").style.display = "block"
-      } else {
-        console.log(navElements.style.height)
+    if ( navElements.style.height == "0px" ) {
+        navElements.style.height = "auto"
+        navElements.querySelector("ul").style.display = "block"
+        navBtn.classList.remove('fa-bars');
+        navBtn.classList.add('fa-xmark');
+    } else {
         navElements.style.height = "0px"
-        navElements.style.border = "none"
         navElements.querySelector("ul").style.display = "none"
-      }
+        navBtn.classList.remove('fa-xmark');
+        navBtn.classList.add('fa-bars');
+    }
 
+})  
+
+
+
+window.addEventListener("resize" , (e) => {
+    console.log(document.body.clientWidth)
 })

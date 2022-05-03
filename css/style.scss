@@ -112,9 +112,12 @@ body {
                             text-align: center;
                             padding: 5px 30px;
                             display: none;
+                            padding: 17px 0px 39px 0px;
+                            text-align : left;
 
                             li {
                                 padding: 10px;
+                                border-bottom: solid .5px #d9d9d980;
                             }
                         }
                     } 
@@ -131,7 +134,12 @@ body {
                         }
                     }
         
-
+                    .logo {
+                        img {
+                            width: 65%;
+                            padding-top: 8px;
+                        }
+                    }
               
                 }
 
@@ -230,28 +238,50 @@ body {
 
 
            @media (max-width: 915px) {
-               flex-direction: column;
 
                .get__started__left {
                    min-height: auto;
                    margin-bottom: 10px;
-                   order: 2;
+                   
 
                    h1 {
-                       line-height: 50px;
+                       line-height: 40px;
+                       font-size: 20px;
                    }
 
                    p {
-                       line-height: 30px;
+                       line-height: 20px;
                    }
                }
 
                .get__started__right {
-                //    order: 1;
-                //    min-height: auto;
-                display: none;
+                // display: none;
+                    padding-top: 30px;
                }
            }
+
+           @media (max-width: 800px) {
+             flex-direction: column;
+            .get__started__left {
+                min-height: auto;
+                margin-bottom: 10px;
+                
+
+                h1 {
+                    line-height: 50px;
+                    font-size: 35px;
+                }
+
+                p {
+                    line-height: 30px;
+                    font-size: 14px;
+                }
+            }
+
+            .get__started__right {
+             display: none;
+            }
+        }
 
         }
 

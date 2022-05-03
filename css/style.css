@@ -754,12 +754,12 @@ body .spons__container .row__container .col__container img {
   }
 }
 
-body #section2 {
+body .section2 {
   background-color: #F6F6F6;
   padding: 40px 0px 70px 0px;
 }
 
-body #section2 .testimonials > h1 {
+body .section2 .testimonials > h1 {
   width: 25%;
   margin: auto;
   text-align: center;
@@ -769,20 +769,20 @@ body #section2 .testimonials > h1 {
 }
 
 @media (max-width: 1220px) {
-  body #section2 .testimonials > h1 {
+  body .section2 .testimonials > h1 {
     width: 40%;
   }
 }
 
 @media (max-width: 1090px) {
-  body #section2 .testimonials > h1 {
+  body .section2 .testimonials > h1 {
     width: 50%;
     font-size: 29px;
   }
 }
 
 @media (max-width: 865px) {
-  body #section2 .testimonials > h1 {
+  body .section2 .testimonials > h1 {
     width: 80%;
     font-size: 29px;
     line-height: 33px;
@@ -790,12 +790,12 @@ body #section2 .testimonials > h1 {
 }
 
 @media (max-width: 600px) {
-  body #section2 .testimonials > h1 {
+  body .section2 .testimonials > h1 {
     font-size: 19px;
   }
 }
 
-body #section2 .testimonials > p {
+body .section2 .testimonials > p {
   font-size: 16px;
   color: #4F5665;
   width: 46%;
@@ -804,19 +804,19 @@ body #section2 .testimonials > p {
 }
 
 @media (max-width: 1220px) {
-  body #section2 .testimonials > p {
+  body .section2 .testimonials > p {
     width: 54%;
   }
 }
 
 @media (max-width: 865px) {
-  body #section2 .testimonials > p {
+  body .section2 .testimonials > p {
     width: 80%;
     font-size: 14px;
   }
 }
 
-body #section2 .testimonials .testimonial {
+body .section2 .testimonials .testimonial {
   display: -ms-grid;
   display: grid;
   width: auto;
@@ -830,14 +830,14 @@ body #section2 .testimonials .testimonial {
 }
 
 @media (max-width: 550px) {
-  body #section2 .testimonials .testimonial {
+  body .section2 .testimonials .testimonial {
     -ms-grid-columns: (360px)[4];
         grid-template-columns: repeat(4, 360px);
     width: 90%;
   }
 }
 
-body #section2 .testimonials .testimonial .card {
+body .section2 .testimonials .testimonial .card {
   padding: 10px 30px;
   background-color: #FFF;
   border: solid 1px #DDD;
@@ -847,11 +847,11 @@ body #section2 .testimonials .testimonial .card {
   transition: all .3s ease-in-out;
 }
 
-body #section2 .testimonials .testimonial .card:hover {
+body .section2 .testimonials .testimonial .card:hover {
   border: solid 1px #F53855;
 }
 
-body #section2 .testimonials .testimonial .card .card-header {
+body .section2 .testimonials .testimonial .card .card-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -860,7 +860,7 @@ body #section2 .testimonials .testimonial .card .card-header {
           justify-content: space-between;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .person-info {
+body .section2 .testimonials .testimonial .card .card-header .person-info {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
@@ -869,39 +869,39 @@ body #section2 .testimonials .testimonial .card .card-header .person-info {
   display: flex;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .person-info .person-name {
+body .section2 .testimonials .testimonial .card .card-header .person-info .person-name {
   padding: 14px;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .person-info .person-name h4, body #section2 .testimonials .testimonial .card .card-header .person-info .person-name p {
+body .section2 .testimonials .testimonial .card .card-header .person-info .person-name h4, body .section2 .testimonials .testimonial .card .card-header .person-info .person-name p {
   margin: 0px;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .person-info .person-name h4 {
+body .section2 .testimonials .testimonial .card .card-header .person-info .person-name h4 {
   font-size: 16px;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .person-info .person-name p {
+body .section2 .testimonials .testimonial .card .card-header .person-info .person-name p {
   font-size: 14px;
   color: #4F5665;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .rate {
+body .section2 .testimonials .testimonial .card .card-header .rate {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-body #section2 .testimonials .testimonial .card .card-header .rate p {
+body .section2 .testimonials .testimonial .card .card-header .rate p {
   text-align: right;
 }
 
-body #section2 .testimonials .testimonial .card .card-body p {
+body .section2 .testimonials .testimonial .card .card-body p {
   color: #0B132A;
   font-size: 16px;
 }
 
-body #section2 .testimonials .control-testimonial {
+body .section2 .testimonials .control-testimonial {
   width: 80%;
   margin: auto;
   display: -webkit-box;
@@ -913,7 +913,7 @@ body #section2 .testimonials .control-testimonial {
   padding: 20px 0px;
 }
 
-body #section2 .testimonials .control-testimonial .dotes {
+body .section2 .testimonials .control-testimonial .dotes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -924,7 +924,7 @@ body #section2 .testimonials .control-testimonial .dotes {
           column-gap: 10px;
 }
 
-body #section2 .testimonials .control-testimonial .dotes .dote {
+body .section2 .testimonials .control-testimonial .dotes .dote {
   height: 12px;
   width: 12px;
   border-radius: 50%;
@@ -933,11 +933,11 @@ body #section2 .testimonials .control-testimonial .dotes .dote {
   cursor: pointer;
 }
 
-body #section2 .testimonials .control-testimonial .dotes .dote.active {
+body .section2 .testimonials .control-testimonial .dotes .dote.active {
   background-color: #F53855;
 }
 
-body #section2 .testimonials .control-testimonial .left-right {
+body .section2 .testimonials .control-testimonial .left-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -948,7 +948,7 @@ body #section2 .testimonials .control-testimonial .left-right {
           column-gap: 10px;
 }
 
-body #section2 .testimonials .control-testimonial .left-right button {
+body .section2 .testimonials .control-testimonial .left-right button {
   background-color: #FFF;
   border-radius: 50%;
   height: 30px;

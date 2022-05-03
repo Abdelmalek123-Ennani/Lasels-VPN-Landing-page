@@ -95,4 +95,25 @@ navBtn.addEventListener('click' , (e) => {
 })  
 
 
-// scroll
+// scroll smooth
+const links = document.querySelectorAll(".navbar nav a");
+
+for (const link of links) {
+  link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute("href");
+  const offsetTop = document.querySelector(href).offsetTop;
+
+  scroll({
+    top: offsetTop,
+    behavior: "smooth"
+  });
+
+  navElements.style.height = "0px"
+  navElements.querySelector("ul").style.display = "none"
+  navBtn.classList.remove('fa-xmark');
+  navBtn.classList.add('fa-bars');
+}

@@ -833,6 +833,7 @@ body #section2 .testimonials .testimonial {
   body #section2 .testimonials .testimonial {
     -ms-grid-columns: (360px)[4];
         grid-template-columns: repeat(4, 360px);
+    width: 90%;
   }
 }
 

@@ -786,6 +786,7 @@ body {
 
                 @media (max-width: 550px) {
                     grid-template-columns: repeat(4 , 360px);
+                    width: 90%;
                 }
 
                 .card {

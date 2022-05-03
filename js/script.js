@@ -35,6 +35,7 @@ btnLeft.addEventListener('click' , () => {
 })
 
 btnRight.addEventListener('click' , () => {
+
     tesTimonialContainer.scrollTo({
         behavior : "smooth",
         left : tesTimonialContainer.scrollLeft + parseInt(cardWidth)
@@ -48,6 +49,8 @@ btnRight.addEventListener('click' , () => {
     }) 
 
     points[pointIndex].classList.add("active")
+
+
 
 })
 
@@ -92,8 +95,4 @@ navBtn.addEventListener('click' , (e) => {
 })  
 
 
-// scroll Animation
-
-function scrollAnimation() {
-    let reveals = document.querySelectorAll()
-}
+// scroll

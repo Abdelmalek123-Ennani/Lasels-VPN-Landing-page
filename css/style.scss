@@ -163,7 +163,6 @@ body {
                min-height: 400px;
                padding: 15px 32px 15px 10px;
                flex: 1;
-               @include animate-css(bounceInLeft);
 
                h1 {
                    font-weight: 500;
@@ -226,7 +225,6 @@ body {
            }
           
            .get__started__right {
-               @include animate-css(bounceInRight);
                min-height: 400px;
                flex: 1;
                img {
@@ -274,7 +272,7 @@ body {
 
                 p {
                     line-height: 30px;
-                    font-size: 14px;
+                     font-size: 14px;
                 }
             }
 
@@ -341,18 +339,15 @@ body {
                         width: 50%;
                         padding: 35px 0px;
                         margin: auto;
-                        @include animate-css(bounceInRight , 3s);
 
                         &:first-of-type {
                             border-right: none;
                             border-bottom: solid 1px #333;
-                            @include animate-css(bounceInLeft , 2s);
                         }
     
                         &:last-of-type {
                             border-left: none;
                             border-top: solid 1px #333;
-                            @include animate-css(bounceInUp , 4s);
                         }
 
                     }

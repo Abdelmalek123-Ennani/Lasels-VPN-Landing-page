@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -40,12 +43,23 @@
 
       <!--Standar-->
       <div class="get__started__container">
-          <div class="get__started__left">
+          <div 
+            class="get__started__left" 
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="800"
+          >
              <h1>Want anything to be easy with <span>LaslesVPN</span>.</h1>
              <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
              <button>Get Started</button>
           </div>
-          <div class="get__started__right">
+          <div class="get__started__right"
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="800"
+            >
               <img src="./assets/svgs/one.svg" alt="svg girl" />
         </div>
       </div>
@@ -53,21 +67,36 @@
       <!--Services-->
       <div class="services__conrtainer">
          <div class="services__container__content">
-            <div class="service__container">
+            <div class="service__container" 
+                 data-aos="zoom-in" 
+                 data-aos-offset="200"
+                 data-aos-delay="300"
+                 data-aos-duration="500"
+            >
                 <img src="./assets/svgs/person.svg" alt=" peson svg" />
                 <h1>
                     <span>+90</span>
                     <small>users</small>
                 </h1>
             </div>
-            <div class="service__container">
+            <div class="service__container" 
+                 data-aos="zoom-in"
+                 data-aos-offset="200"
+                 data-aos-delay="700"
+                 data-aos-duration="500"
+            > 
                 <img src="./assets/svgs/location.svg" alt=" peson svg" />
                 <h1>
                     <span>+30</span>
                     <small>Location</small>
                 </h1>
             </div>
-            <div class="service__container">
+            <div class="service__container" 
+                 data-aos="zoom-in"
+                 data-aos-offset="200"
+                 data-aos-delay="1000"
+                 data-aos-duration="500"
+            >
                 <img src="./assets/svgs/servers.svg" alt=" peson svg" />
                 <h1>
                     <span>+50</span>
@@ -80,10 +109,22 @@
 
       <!-- Features -->
       <div class="features__container">
-         <div class="features__container__left">
+         <div 
+             class="features__container__left"
+             data-aos="zoom-out-right"
+             data-aos-offset="400"
+             data-aos-delay="500"
+             data-aos-duration="500"
+         >
              <img src="./assets/svgs/two.svg" alt="">
          </div>
-         <div class="features__container__right">
+         <div 
+            class="features__container__right"
+            data-aos="zoom-out-left"
+            data-aos-offset="400"
+            data-aos-delay="400"
+            data-aos-duration="500"   
+         >
             <div>
                 <h1>We Provide Many Features You Can Use</h1>
                 <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
@@ -105,7 +146,12 @@
             <h1>Choose Your Plan</h1>
             <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
             <div class="planes__details">
-                   <div class="details">
+                   <div 
+                       class="details"
+                       data-aos="zoom-in"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"   
+                   >
                         <div class="">
                                 <img src="./assets/svgs/box.svg" alt="box img" />
                                 <h4>Free plan</h4>
@@ -122,7 +168,12 @@
                         </div>
                    </div>
 
-                   <div class="details">
+                   <div 
+                       class="details"
+                       data-aos="zoom-in"
+                       data-aos-delay="700"
+                       data-aos-duration="1000" 
+                    >
                     <div class="">
                             <img src="./assets/svgs/box.svg" alt="box img" />
                             <h4>Standard plan</h4>
@@ -139,7 +190,11 @@
                     </div>
                </div>
 
-               <div class="details">
+               <div    class="details"
+                    data-aos="zoom-in"
+                    data-aos-delay="900"
+                    data-aos-duration="1000"
+               >
                 <div class="">
                         <img src="./assets/svgs/box.svg" alt="box img" />
                         <h4>Premium plan</h4>
@@ -172,16 +227,32 @@
       <!-- sponsers -->
       <div class="spons__container">
         <div class="row__container">
-            <div class="col__container">
+            <div class="col__container"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+            >
              <img src="./assets/mgs/google.png" alt="spotify svg">
            </div>
-           <div class="col__container">
+           <div class="col__container"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+           >
                <img src="./assets/mgs/microsoft.png" alt="diskord svg">
            </div>
-           <div class="col__container">
+           <div class="col__container"
+                 data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+           >
                <img src="./assets/mgs/facebook.jpg" alt="reddit svg">
            </div>
-             <div class="col__container">
+             <div class="col__container"
+                  data-aos="zoom-in"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+             >
                <img src="./assets/mgs/amazon.png" alt="diskord svg">
               </div>
             <!-- <div class="col__container">
@@ -306,7 +377,7 @@
    </section>
 
    <!-- footer -->
-   <footer>
+   <footer data-aos="zoom-in"  data-aos-delay="50" data-aos-duration="1000"  data-aos-mirror="true">
        <div class="subscribe">
           <div>
             <h1>Subscribe Now for Get Special Features!</h1>
@@ -374,6 +445,9 @@
 
 
    <script src="./js/script.js" defer></script>
-
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
 </body>
 </html>

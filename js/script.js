@@ -92,7 +92,8 @@ navBtn.addEventListener('click' , (e) => {
 })  
 
 
+// scroll Animation
 
-window.addEventListener("resize" , (e) => {
-    console.log(document.body.clientWidth)
-})
+function scrollAnimation() {
+    let reveals = document.querySelectorAll()
+}
